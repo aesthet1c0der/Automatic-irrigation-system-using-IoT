@@ -1,0 +1,87 @@
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .btn{
+      z-index: 1000;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  html {
+    font-family:fantasy
+    font-size: 150%;
+    line-height: 1.4;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .viewport-header {
+    position: relative;
+    height: 100%;
+    text-align:justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    background: rgba(156, 145, 145, 0.66);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(26, 19, 117);
+    letter-spacing: 3vw;
+    line-height: 1.2;
+    font-size: 6vw;
+    text-align: center;
+  }
+  h1 span {
+    display: block;
+    color: rgb(252, 0, 0);
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+  }
+  
+  main {
+    background: rgba(0, 0, 0, 0.66);
+    color: rgb(51, 255, 0);
+    position: relative;
+    padding: 1rem;
+  }
+  main p {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+
+  .topnav-centered a {
+      background-blend-mode: rgb(160, 44, 44);
+      color: rgb(255, 255, 255);
+    float: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

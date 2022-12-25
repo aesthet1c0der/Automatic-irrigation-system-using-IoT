@@ -1,0 +1,75 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("agri.jpg");
+    background-color: #cccccc;
+    text-align: center;
+    padding: 15px;
+}
+
+/*header  start*/
+
+.header{
+    height: 60px;
+    background: rgb(236, 232, 232);
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+.header h1{
+    color: rgb(75, 67, 67);
+    font-size: 30px;
+    padding-top: 8px;
+}
+/*header  end*/
+
+/*container start */
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.control, .monitor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.values{
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 200px;
+}
+.values h1{
+    padding: 10px;
+}
+.values p{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.switch{
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 200px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(57, 214, 36);
+    border-radius:10px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+/*container start */
