@@ -1,6 +1,6 @@
 setInterval(() => {
 
-          fetch("https://venkatesh029.000webhostapp.com/api/read.php")
+          fetch("https://.com/api/read.php")
     .then((response) => {
       return response.json();
     })
