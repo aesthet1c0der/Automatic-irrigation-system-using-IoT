@@ -1,9 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-$servername = "localhost";
-$username = "id18526731_value";
-$password = "H4Qw^?TM?9fi\Dd6";
-$dbname = "id18526731_moisturesensor";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
